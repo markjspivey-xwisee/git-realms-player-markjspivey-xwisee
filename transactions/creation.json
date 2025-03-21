@@ -1,0 +1,10 @@
+{
+  "transaction_id": "create-195b655b848",
+  "type": "character_creation",
+  "timestamp": "2025-03-21T01:33:45.928Z",
+  "player": "markjspivey-xwisee",
+  "character": {
+    "name": "TestHero",
+    "class": "warrior"
+  }
+}
