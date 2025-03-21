@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "format_version": "1.0.0",
+    "last_updated": "2025-03-21T01:33:45.281Z",
+    "git_realm_version": "1.0.0"
+  },
+  "player": {
+    "name": "TestHero",
+    "class": "warrior",
+    "level": 1,
+    "experience": 0,
+    "next_level_at": 100,
+    "stats": {
+      "health": 120,
+      "max_health": 120,
+      "energy": 100,
+      "max_energy": 100,
+      "strength": 15,
+      "dexterity": 10,
+      "intelligence": 10,
+      "constitution": 13,
+      "attack_power": 8,
+      "defense": 7
+    },
+    "skills": {
+      "combat": 1,
+      "exploration": 1,
+      "crafting": 1,
+      "gathering": 1
+    },
+    "inventory": [
+      {
+        "id": "iron-sword",
+        "name": "Iron Sword",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "id": "leather-armor",
+        "name": "Leather Armor",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "id": "health-potion",
+        "name": "Health Potion",
+        "quantity": 2,
+        "equipped": false
+      }
+    ],
+    "location": {
+      "region": "starting-village",
+      "coordinates": [
+        10,
+        10
+      ]
+    },
+    "quests": {
+      "active": [
+        {
+          "id": "welcome-to-adventure",
+          "name": "Welcome to Adventure",
+          "objectives": [
+            {
+              "type": "speak",
+              "target": "village-elder",
+              "required": 1,
+              "count": 0,
+              "completed": false,
+              "description": "Speak with the Village Elder in the Town Square"
+            }
+          ]
+        }
+      ],
+      "completed": []
+    },
+    "last_transaction": "2025-03-21T01:33:45.281Z"
+  },
+  "blockchain": {
+    "block_height": 1,
+    "last_hash": "genesis-195b655b5c1",
+    "transactions": []
+  }
+}
